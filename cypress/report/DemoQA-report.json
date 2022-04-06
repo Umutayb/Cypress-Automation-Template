@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "DemoQA Exploration",
+    "line": 2,
+    "id": "demoqa-exploration",
+    "tags": [
+      {
+        "name": "@DemoQA",
+        "line": 1
+      }
+    ],
+    "uri": "DemoQA.feature",
+    "elements": [
+      {
+        "id": "demoqa-exploration;text-box-interaction",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Text Box Interaction",
+        "tags": [
+          {
+            "name": "@DemoQA",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 5,
+            "name": "Navigate to demoqa.com",
+            "result": {
+              "status": "passed",
+              "duration": 1494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 6,
+            "name": "Click category card named Elements",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 7,
+            "name": "Click tool named Text Box",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 8,
+            "name": "Click text box submit",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

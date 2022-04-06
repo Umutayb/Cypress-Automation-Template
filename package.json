@@ -1,0 +1,29 @@
+{
+  "name": "cypress-automation-template",
+  "version": "0.0.1",
+  "description": "Cypress Automation Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress-tags run",
+    "cypress-open": "cypress open"
+
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Bora",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/report",
+      "filePrefix": "",
+      "fileSuffix": "-report"
+    }
+  }
+}

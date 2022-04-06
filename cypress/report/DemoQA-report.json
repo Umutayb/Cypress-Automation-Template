@@ -32,7 +32,7 @@
             "name": "Navigate to demoqa.com",
             "result": {
               "status": "passed",
-              "duration": 1494000000
+              "duration": 1662000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Click category card named Elements",
             "result": {
               "status": "passed",
-              "duration": 165000000
+              "duration": 176000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Click tool named Text Box",
             "result": {
               "status": "passed",
-              "duration": 143000000
+              "duration": 152000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Click text box submit",
             "result": {
               "status": "passed",
-              "duration": 178000000
+              "duration": 116000000
             }
           }
         ]
